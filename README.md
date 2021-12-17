@@ -55,7 +55,7 @@ I settled on qualitatively (visually) assessing how well the two techniques ulti
 
 The intial PCA representation left much to be desired. Only one of the nine cancer types clearly seperated out; the rest were jumbled together and hard to tell apart.
 
-<p align="middle">
+<p float="left">
   <img src="Final/PCA-plot.png" width="50%" />
   <img src="Final/PCA-km.png" width="50%" /> 
 </p>
