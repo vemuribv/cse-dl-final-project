@@ -10,17 +10,19 @@ VIDEO GOES HERE (probably): Record a 2-3 minute long video presenting your work.
 
 ## Problem Statement
 
-In this section the problem you are working on. Maybe talk about why you thought it was interesting. Or why you think it needs to get solved.
-
-You may also want to say a little bit here about what you did. Not too much though. Don't give the whole game away.
+Dimensionality reduction is a crucial step in the overall genome sequencing data analysis workflow. Common techniques include PCA, t-SNE, and UMAP, which are popular for their ability to produce two-dimensional representations that are easily visualizable. I was interested in seeing if an autoencoder architecture would be able to do a better job than PCA, specifically when applied to high-dimensional RNAseq data spanning across multiple cancer types.  
 
 ## Related Work
 
 Other people are out there doing things. What did they do? Was it good? Was it bad? Talk about it here.
 
-what papers/ideas inspired you, what datasets did you use, etc
+I used the TCGA Pan-Cancer Atlas RNASeq dataset(https://gdc.cancer.gov/about-data/publications/pancanatlas). It includes expression values for 20,531 genes across 11,069 tumor samples. 33 cancer types are represented. I focused on the 9 cancer types which had 500 or more samples each.
 
 ## Methodology
+
+I opted to utilize an autoencoder framework to achieve dimensionality reduction. An autoencoder attempts to recreate the input it's given as accurately as possible after that input has been fed through any number of hidden layers. The representation learned by the encoder portion can then be used for downstream purposes, like visualization if the final number of features are 2 or 3.
+
+Since the goal was to compare the two methods via a 2d visualization, the final layer of the encoder portion needed to have 2 nodes. With that goal in mind, I built backwards and successively increased the number of nodes in each layer until I reached something close to the input size. I attempted to achieve a systematic bottleneck over multiple layers rather than a rapid one that may have resulted in too much loss of information.
 
 How did you decide to solve the problem? What network architecture did you use? What data? Lots of details here about all the things you did. This section describes almost your whole project.
 
@@ -28,9 +30,11 @@ Figures are good here. Maybe you present your network architecture or show some 
 
 ## Experiments/Evaluation
 
-how are you evaluating your results
+Initially I had planned to use INSERT LINK as an empirical way of determining whether PCA or the autoencoder resulted in a kmeans clustering that was closed to ground truth. However, I found that outside of 2-3 clusters/cancer types, there was too much overlap between types to realistically match a predicted cluster to a ground truth cluster. 
 
 ## Results
+
+I settled on visualization between the two competing methods to determine which may have the better performance for this use case. 
 
 How well did you do? What are you comparing to? Maybe you want ablation studies or comparisons of different methods.
 
