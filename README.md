@@ -2,7 +2,7 @@
 
 This project aims to demonstrate the ability of an autoencoder framework to learn an informative low-dimensional representation of a high-dimensional dataset and use this encoding to inform a visualization that (qualitatively) outperforms PCA. I chose a gene expression dataset with over 17,000 features (genes) and several thousand samples. My network included six hidden layers in the encoder and six in the decoder (the same layers but in reverse). After 500 epochs with a learning rate of 0.001, I was able to achieve a final loss of 0.4383, but the visualization was actually better after 150 epochs with a slightly higher loss (0.5124).
 
-![](https://mailuc-my.sharepoint.com/:v:/g/personal/vemuribv_mail_uc_edu/EenfasT6W1hGr-LZ0VsJLn4B41sfrWcALTnUxIgIUmzvPQ?e=VpIYEO)
+![test](https://mailuc-my.sharepoint.com/:v:/g/personal/vemuribv_mail_uc_edu/EenfasT6W1hGr-LZ0VsJLn4B41sfrWcALTnUxIgIUmzvPQ?e=VpIYEO)
 
 ## Problem Statement
 
