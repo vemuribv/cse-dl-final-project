@@ -83,11 +83,17 @@ The autoencoder framework improved steadily with more iterations, but at a certa
   <img src="Final/50epoch-plot.png" width="45%" /> 
 </p>
 
-100 epochs
+150 epochs
 
 <p align="middle">
   <img src="Final/150epoch-loss.png" width="45%" />
-  <img src="Final/150epoch-plot.png" width="45%" /> 
+  <img src="Final/150epoch-plot.png" width="45%" />
+</p>
+
+The 150 epoch visualization ended up being the best of the bunch. K-means (k=9) applied to this encoding (below) yielded at least 3 cluters that matched closely with cancer types and possibly a fourth. It's also worth noting that two of the overlapping colors in the above plot (yellow and red) are both lung cancers and may be biologically/genetically similar; something the encoding may have baked in.
+
+<p align="middle">
+  <img src="Final/150epoch-km.png" width="45%" />
 </p>
 
 
