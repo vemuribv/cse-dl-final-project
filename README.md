@@ -13,9 +13,9 @@ Dimensionality reduction is a crucial step in the overall genome sequencing data
 ## Related Work
 
 I took inspiration from:
-- Chaudhary 2018: Deep Learning–Based Multi-Omics Integration Robustly Predicts Survival in Liver Cancer
-- Tan 2015: UNSUPERVISED FEATURE CONSTRUCTION AND KNOWLEDGE EXTRACTION FROM GENOME-WIDE ASSAYS OF BREAST CANCER WITH DENOISING AUTOENCODERS
-- Lin 2020: A deep adversarial variational autoencoder model for dimensionality reduction in single-cell RNA sequencing analysis
+- [Chaudhary 2018: Deep Learning–Based Multi-Omics Integration Robustly Predicts Survival in Liver Cancer](https://clincancerres.aacrjournals.org/content/24/6/1248.long)
+- [Tan 2015: UNSUPERVISED FEATURE CONSTRUCTION AND KNOWLEDGE EXTRACTION FROM GENOME-WIDE ASSAYS OF BREAST CANCER WITH DENOISING AUTOENCODERS](https://www.worldscientific.com/doi/abs/10.1142/9789814644730_0014)
+- [Lin 2020: A deep adversarial variational autoencoder model for dimensionality reduction in single-cell RNA sequencing analysis](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-020-3401-5)
 
 The Lin 2020 paper in particular is very thorough in its approach to benchmarking their proposed model against many others. I attempted a more simplified version that I felt comfortable with and applied it to a well-known public dataset (TCGA PanCan) that I was interested in.
 
