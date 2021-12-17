@@ -99,6 +99,13 @@ The 150 epoch visualization ended up being the best of the bunch. K-means (k=9) 
   <img src="Final/150epoch-km.png" width="45%" />
 </p>
 
+500 epochs
+
+<p align="middle">
+  <img src="Final/500epoch-loss.png" width="45%" />
+  <img src="Final/500epoch-plot.png" width="45%" /> 
+</p>
+
 In summary, the autoencoder generated 2d visualization (left) was clearer and better clustered than the PCA generated 2d visualization (right) for a high-dimensional gene expression dataset.
 
 <p align="middle">
