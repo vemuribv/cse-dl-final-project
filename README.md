@@ -96,10 +96,7 @@ The 150 epoch visualization ended up being the best of the bunch. K-means (k=9) 
   <img src="Final/150epoch-km.png" width="45%" />
 </p>
 
-
-
-
-## Discussion
-
-You can talk about your results and the stuff you've learned here if you want. Or discuss other things. Really whatever you want, it's your project.
-
+## Future Directions
+- Quantitative measure of cancer type separation in 2d viz
+- Comparison with other (nonlinear) dimensionality reduction techniques (t-SNE, UMAP)
+- Networks other than autoencoders
