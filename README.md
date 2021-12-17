@@ -1,4 +1,4 @@
-# Autoencoder to Better Visualize High-Dimensional Data
+# Autoencoder to Better Visualize High-Dimensional Gene Expression Data
 
 This project aims to demonstrate the ability of an autoencoder framework to learn an informative low-dimensional representation of a high-dimensional dataset and use this encoding to inform a visualization that (qualitatively) outperforms PCA. I chose a gene expression dataset with over 17,000 features (genes) and several thousand samples. My network included six hidden layers in the encoder and six in the decoder (the same layers but in reverse). After 500 epochs with a learning rate of 0.001, I was able to achieve a final loss of 0.4383, but the visualization was actually better after 150 epochs with a slightly higher loss (0.5124).
 
@@ -95,6 +95,13 @@ The 150 epoch visualization ended up being the best of the bunch. K-means (k=9) 
 
 <p align="middle">
   <img src="Final/150epoch-km.png" width="45%" />
+</p>
+
+In summary, the autoencoder generated 2d visualization (left) was clearer and better clustered than the PCA generated 2d visualization (right) for a high-dimensional gene expression dataset.
+
+<p align="middle">
+  <img src="Final/150epoch-plot.png" width="45%" />
+  <img src="Final/PCA-plot.png" width="45%" />
 </p>
 
 ## Future Directions
