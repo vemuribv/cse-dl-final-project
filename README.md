@@ -53,7 +53,7 @@ I settled on qualitatively (visually) assessing how well the two techniques ulti
 
 ## Results
 
-The intial PCA representation left much to be desired. Only one of the nine cancer types clearly seperated out; the rest were jumbled together and hard to tell apart.
+The intial PCA representation left much to be desired. Only one of the nine cancer types clearly seperated out; the rest were jumbled together and hard to tell apart. The image on the left shows the PCA plot with ground truth labels. On the right is the same plot colored by k-means clustering with k=9 (for total number of cancer types). As can be seen, only the brain lower grade glioma (in gray) seems to be identified by the clustering algorithm.
 
 <p align="middle">
   <img src="Final/PCA-plot.png" width="45%" />
