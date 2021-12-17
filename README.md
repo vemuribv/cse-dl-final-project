@@ -21,15 +21,15 @@ The TCGA Pan-Cancer Atlas RNASeq dataset(https://gdc.cancer.gov/about-data/publi
 
 Number of cancer types: 9
 Number of samples per cancer type:
-BRCA    1215
-KIRC     606
-LUAD     576
-THCA     572
-HNSC     566
-UCEC     555
-LUSC     553
-PRAD     550
-LGG      533
+BRCA    |1215
+KIRC     |606
+LUAD     |576
+THCA     |572
+HNSC     |566
+UCEC     |555
+LUSC     |553
+PRAD     |550
+LGG      |533
 
 ## Methodology
 
