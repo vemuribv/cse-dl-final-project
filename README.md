@@ -4,6 +4,8 @@ This project aims to demonstrate the ability of an autoencoder framework to lear
 
 [Video (Google Drive link)](https://drive.google.com/file/d/1rFcZeKY-DyjDxb6kGA0lOw9SYwZhQQCr/view?usp=sharing)
 
+[Colab notebook](https://colab.research.google.com/drive/1Dyn_TsjInXsCZnFWDCxyRfxD6-ZWInzK?usp=sharing)
+
 ## Problem Statement
 
 Dimensionality reduction is a crucial step in the overall genome sequencing data analysis workflow. Common techniques include PCA, t-SNE, and UMAP, which are popular for their ability to produce two-dimensional representations that are easily visualizable. I was interested in seeing if an autoencoder architecture would be able to do a better job than PCA, specifically when applied to high-dimensional RNAseq data spanning across multiple cancer types.  
