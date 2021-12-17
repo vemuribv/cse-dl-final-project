@@ -21,7 +21,7 @@ The TCGA Pan-Cancer Atlas RNASeq dataset(https://gdc.cancer.gov/about-data/publi
 
 Number of cancer types: 9
 Number of samples per cancer type:
-| Type    No. samples |
+| Type  |  No. samples |
 |---------------------|
 | BRCA  |  1215        |
 | KIRC   |  606        |
