@@ -69,6 +69,27 @@ The autoencoder framework improved steadily with more iterations, but at a certa
 | .001   |  150        | 0.5124 |
 |.001 | 500 | 0.4383 |
 
+20 epochs
+
+<p align="middle">
+  <img src="Final/20epoch-loss.png" width="45%" />
+  <img src="Final/20epoch-plot.png" width="45%" /> 
+</p>
+
+50 epochs
+
+<p align="middle">
+  <img src="Final/50epoch-loss.png" width="45%" />
+  <img src="Final/50epoch-plot.png" width="45%" /> 
+</p>
+
+100 epochs
+
+<p align="middle">
+  <img src="Final/150epoch-loss.png" width="45%" />
+  <img src="Final/150epoch-plot.png" width="45%" /> 
+</p>
+
 
 
 
