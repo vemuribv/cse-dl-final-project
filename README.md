@@ -17,7 +17,7 @@ I took inspiration from:
 
 The Lin 2020 paper in particular is very thorough in its approach to benchmarking their proposed model against many others. I attempted a more simplified version that I felt comfortable with and applied it to a well-known public dataset (TCGA PanCan) that I was interested in.
 
-The TCGA Pan-Cancer Atlas RNASeq dataset(https://gdc.cancer.gov/about-data/publications/pancanatlas) includes expression values for 20,531 genes across 11,069 tumor samples. 33 cancer types are represented. I focused on the 9 cancer types which had 500 or more samples each. After some standard preprocessing, I was left with 5,726 samples and 17,475 genes.
+The (TCGA Pan-Cancer Atlas RNASeq dataset)[https://gdc.cancer.gov/about-data/publications/pancanatlas] includes expression values for 20,531 genes across 11,069 tumor samples. 33 cancer types are represented. I focused on the 9 cancer types which had 500 or more samples each. After some standard preprocessing, I was left with 5,726 samples and 17,475 genes.
 
 | Type  |  No. samples |
 |-------|--------------|
