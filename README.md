@@ -63,7 +63,7 @@ The intial PCA representation left much to be desired. Only one of the nine canc
   <img src="Final/PCA-km.png" width="45%" /> 
 </p>
 
-The autoencoder framework improved steadily with more iterations, but at a certain point started to compress toward a point. I found the sweet spot in this case to be 150 epochs with a learning rate of 0.001. A sampling of other runs is shown in the table below and the corresponding loss graphs and visualizations are below as well.
+The autoencoder framework improved steadily with more iterations, but only up to a point. I found the sweet spot in this case to be 150 epochs with a learning rate of 0.001. A sampling of other runs is shown in the table below and the corresponding loss graphs and visualizations are below as well.
 
 | lr  |  n_epochs | final loss |
 |-------|---------|-----|
