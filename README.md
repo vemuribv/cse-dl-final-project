@@ -50,7 +50,7 @@ Since the goal was to compare the two methods via a 2d visualization, the final 
 
 For autoencoder evaluation, I minimized MSELoss to achieve the most accurate reconstruction of the input.
 
-Initially I had planned to use a mutual information based score (https://scikit-learn.org/stable/modules/clustering.html#mutual-information-based-scores) as an empirical way of determining whether PCA or the autoencoder resulted in a kmeans clustering that was closer to ground truth. However, I found that outside of maybe 1-3 clusters/cancer types, there was too much overlap between types to realistically match a predicted cluster to a ground truth cluster. A better solution may have been to calculate some kind of inter-cluster distance and see which technique maximed such a metric.
+Initially I had planned to use a [mutual information based score](https://scikit-learn.org/stable/modules/clustering.html#mutual-information-based-scores) as an empirical way of determining whether PCA or the autoencoder resulted in a kmeans clustering that was closer to ground truth. However, I found that outside of maybe 1-3 clusters/cancer types, there was too much overlap between types to realistically match a predicted cluster to a ground truth cluster. A better solution may have been to calculate some kind of inter-cluster distance and see which technique maximed such a metric.
 
 I settled on qualitatively (visually) assessing how well the two techniques ultimately separated the cancer types on the 2d plot. In this case it became clear when one outperformed the other, however a quantitative measure for emphasis would be good for the future, as mentioned.
 
