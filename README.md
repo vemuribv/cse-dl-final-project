@@ -55,7 +55,10 @@ I settled on qualitatively (visually) assessing how well the two techniques ulti
 
 The intial PCA representation left much to be desired. Only one of the nine cancer types clearly seperated out; the rest were jumbled together and hard to tell apart.
 
-![PCA-plot](Final/PCA-plot.png) ![PCA-km](Final/PCA-km.png)
+<p align="middle">
+  <img src="Final/PCA-plot.png" width="50%" />
+  <img src="Final/PCA-km.png" width="50%" /> 
+</p>
 
 The autoencoder framework improved steadily with more iterations, but at a certain point started to compress toward a point. I found the sweet spot in this case to be 150 epochs with a learning rate of 0.001. A sampling of other runs is shown in the table below and the corresponding loss graphs and visualizations are below as well.
 
