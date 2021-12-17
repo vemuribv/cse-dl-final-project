@@ -1,8 +1,5 @@
+# PCA vs. Autoencoder for Dimensionality Reduction and Visualization of RNASeq Dataset
 
-
-    Examples - images/text/live demo, anything to show off your work
-
-# Example Project
 
 Write a 3-4 sentence abstract. It should introduce the problem and your approach. You may also want some numbers like 35 mAP and 78% accuracy. You can use this example README for your project, you can use a different ordering for your website, or you can make a totally different website altogether!
 
@@ -33,6 +30,8 @@ Figures are good here. Maybe you present your network architecture or show some 
 Initially I had planned to use INSERT LINK as an empirical way of determining whether PCA or the autoencoder resulted in a kmeans clustering that was closed to ground truth. However, I found that outside of 2-3 clusters/cancer types, there was too much overlap between types to realistically match a predicted cluster to a ground truth cluster. 
 
 ## Results
+
+The autoencoder itself achieved a final loss of INSERT after 5 epochs of training.
 
 I settled on visualization between the two competing methods to determine which may have the better performance for this use case. 
 
