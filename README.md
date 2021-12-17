@@ -38,7 +38,7 @@ The [TCGA Pan-Cancer Atlas RNASeq dataset](https://gdc.cancer.gov/about-data/pub
 
 I first applied standard PCA from sklearn to establish a baseline visualization. I applied k-means clustering with k=9 (1 for each cancer type) to the 2d representation to get a sense of which cancer types might accurately be captured by an unsupervised technique. 
 
-I opted to utilize an autoencoder framework to achieve improvement over PCA. An autoencoder attempts to recreate the input it's given as accurately as possible after that input has been fed through any number of hidden layers that are successively more restrictive. The representation learned by the encoder portion can then be used for downstream purposes, like visualization (if the final number of features are 2 or 3).
+I opted to utilize an autoencoder framework to achieve improvement over PCA. An autoencoder attempts to recreate the input it's given as accurately as possible after that input has been fed through any number of hidden layers that are successively more restrictive. The representation learned by the encoder portion can then be used for downstream purposes, like visualization (if the final number of features is 2 or 3).
 
 Since the goal was to compare the two methods via a 2d visualization, the final layer of the encoder portion needed to have 2 neurons. With that in mind, I built backwards and successively increased the number of neurons in each layer until I reached something close to the input size. I attempted to achieve a systematic bottleneck over multiple layers rather than a rapid one that may have resulted in too much loss of information. A (crude) representation of the architecture is shown here (vertical rather than horizontal):
 
