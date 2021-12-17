@@ -40,8 +40,9 @@ I opted to utilize an autoencoder framework to achieve improvement over PCA. An 
 
 Since the goal was to compare the two methods via a 2d visualization, the final layer of the encoder portion needed to have 2 neurons. With that in mind, I built backwards and successively increased the number of neurons in each layer until I reached something close to the input size. I attempted to achieve a systematic bottleneck over multiple layers rather than a rapid one that may have resulted in too much loss of information. A (crude) representation of the architecture is shown here (vertical rather than horizontal):
 
-INSERT IMAGE
-
+<p align="middle">
+  <img src="Final/architecture.png" width="45%" />
+</p>
 
 ## Experiments/Evaluation
 
